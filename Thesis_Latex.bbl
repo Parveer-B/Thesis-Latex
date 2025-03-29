@@ -1,0 +1,228 @@
+\begin{thebibliography}{10}
+
+\bibitem{cheng}
+Chad~Shouquan Cheng, Heather Auld, Qian Li, and Guilong Li.
+\newblock Possible impacts of climate change on extreme weather events at local
+  scale in south--central canada.
+\newblock {\em Climatic change}, 112:963--979, 2012.
+
+\bibitem{panteli}
+Mathaios Panteli and Pierluigi Mancarella.
+\newblock Influence of extreme weather and climate change on the resilience of
+  power systems: Impacts and possible mitigation strategies.
+\newblock {\em Electric Power Systems Research}, 127:259--270, 2015.
+
+\bibitem{Jufri}
+Fauzan~Hanif Jufri, Victor Widiputra, and Jaesung Jung.
+\newblock State-of-the-art review on power grid resilience to extreme weather
+  events: Definitions, frameworks, quantitative assessment methodologies, and
+  enhancement strategies.
+\newblock {\em Applied energy}, 239:1049--1065, 2019.
+
+\bibitem{ancona}
+Jerry~J Ancona.
+\newblock A framework for power system restoration following a major power
+  failure.
+\newblock {\em IEEE Transactions on power systems}, 10(3):1480--1485, 1995.
+
+\bibitem{yan}
+Jiahao Yan, Bo~Hu, Kaigui Xie, Heng-Ming Tai, and Wenyuan Li.
+\newblock Post-disaster power system restoration planning considering sequence
+  dependent repairing period.
+\newblock {\em International Journal of Electrical Power \& Energy Systems},
+  117:105612, 2020.
+
+\bibitem{chen}
+Bo~Chen, Chen Chen, Jianhui Wang, and Karen~L Butler-Purry.
+\newblock Multi-time step service restoration for advanced distribution systems
+  and microgrids.
+\newblock {\em IEEE Transactions on Smart Grid}, 9(6):6793--6805, 2017.
+
+\bibitem{thiebaux}
+Sylvie Thi{\'e}baux, Carleton Coffrin, Hassan Hijazi, and John Slaney.
+\newblock Planning with mip for supply restoration in power distribution
+  systems.
+\newblock In {\em Twenty-Third International Joint Conference on Artificial
+  Intelligence}, 2013.
+
+\bibitem{coffrin2012}
+Carleton Coffrin, Pascal Van~Hentenryck, and Russell Bent.
+\newblock Last-mile restoration for multiple interdependent infrastructures.
+\newblock In {\em Proceedings of the AAAI Conference on Artificial
+  Intelligence}, volume~26, pages 455--463, 2012.
+
+\bibitem{coffrin2011}
+Pascal Van~Hentenryck, Carleton Coffrin, Russell Bent, et~al.
+\newblock Vehicle routing for the last mile of power system restoration.
+\newblock In {\em Proceedings of the 17th Power Systems Computation Conference
+  (PSCC’11), Stockholm, Sweden}, pages 22--26. Citeseer, 2011.
+
+\bibitem{tan}
+Yushi Tan, Feng Qiu, Arindam~K Das, Daniel~S Kirschen, Payman Arabshahi, and
+  Jianhui Wang.
+\newblock Scheduling post-disaster repairs in electricity distribution
+  networks.
+\newblock {\em IEEE Transactions on Power Systems}, 34(4):2611--2621, 2019.
+
+\bibitem{nurre}
+Sarah~G Nurre, Burak Cavdaroglu, John~E Mitchell, Thomas~C Sharkey, and
+  William~A Wallace.
+\newblock Restoring infrastructure systems: An integrated network design and
+  scheduling (inds) problem.
+\newblock {\em European journal of operational research}, 223(3):794--806,
+  2012.
+
+\bibitem{smith}
+Wayne~E Smith et~al.
+\newblock Various optimizers for single-stage production.
+\newblock {\em Naval Research Logistics Quarterly}, 3(1-2):59--66, 1956.
+
+\bibitem{chalishazar}
+Vishvas~H Chalishazar, Ted~KA Brekken, Darin Johnson, Kent Yu, James Newell,
+  King Chin, Rob Weik, Emilie Dierickx, Matthew Craven, Maty Sauter, et~al.
+\newblock Connecting risk and resilience for a power system using the portland
+  hills fault case study.
+\newblock {\em Processes}, 8(10):1200, 2020.
+
+\bibitem{mu}
+Yunfei Mu, Lin Li, Kai Hou, Xianjun Meng, Hongjie Jia, Xiaodan Yu, and Wei Lin.
+\newblock A risk management framework for power distribution networks
+  undergoing a typhoon disaster.
+\newblock {\em IET Generation, Transmission \& Distribution}, 16(2):293--304,
+  2022.
+
+\bibitem{braik}
+Abdullah~M Braik, Abdullahi~M Salman, and Yue Li.
+\newblock Reliability-based assessment and cost analysis of power distribution
+  systems at risk of tornado hazard.
+\newblock {\em ASCE-ASME Journal of Risk and Uncertainty in Engineering
+  Systems, Part A: Civil Engineering}, 6(2):04020014, 2020.
+
+\bibitem{hughes2024assessing}
+William Hughes, Peter~L Watson, Diego Cerrai, Xinxuan Zhang, Amvrossios
+  Bagtzoglou, Wei Zhang, and Emmanouil Anagnostou.
+\newblock Assessing grid hardening strategies to improve power system
+  performance during storms using a hybrid mechanistic-machine learning outage
+  prediction model.
+\newblock {\em Reliability Engineering \& System Safety}, 248:110169, 2024.
+
+\bibitem{strader}
+Stephen~M Strader, Thomas~J Pingel, and Walker~S Ashley.
+\newblock A monte carlo model for estimating tornado impacts.
+\newblock {\em Meteorological Applications}, 23(2):269--281, 2016.
+
+\bibitem{noaa}
+National Oceanic and Atmospheric Administration.
+\newblock Noaa tornado data.
+\newblock WebPage, July 2024.
+
+\bibitem{scipy}
+Pauli Virtanen, Ralf Gommers, Travis~E. Oliphant, Matt Haberland, Tyler Reddy,
+  David Cournapeau, Evgeni Burovski, Pearu Peterson, Warren Weckesser, Jonathan
+  Bright, St{\'e}fan~J. {van der Walt}, Matthew Brett, Joshua Wilson, K.~Jarrod
+  Millman, Nikolay Mayorov, Andrew R.~J. Nelson, Eric Jones, Robert Kern, Eric
+  Larson, C~J Carey, {\.I}lhan Polat, Yu~Feng, Eric~W. Moore, Jake
+  {VanderPlas}, Denis Laxalde, Josef Perktold, Robert Cimrman, Ian Henriksen,
+  E.~A. Quintero, Charles~R. Harris, Anne~M. Archibald, Ant{\^o}nio~H. Ribeiro,
+  Fabian Pedregosa, Paul {van Mulbregt}, and {SciPy 1.0 Contributors}.
+\newblock {{SciPy} 1.0: Fundamental Algorithms for Scientific Computing in
+  Python}.
+\newblock {\em Nature Methods}, 17:261--272, 2020.
+
+\bibitem{serrano2023comprehensive}
+Alexandre Serrano-Fontova, Haiyu Li, Zhiyu Liao, Magnus~Rory Jamieson, Rosa
+  Serrano, Alessandra Parisio, and Mathaios Panteli.
+\newblock A comprehensive review and comparison of the fragility curves used
+  for resilience assessments in power systems.
+\newblock {\em IEEE Access}, 11:108050--108067, 2023.
+
+\bibitem{zekavati2022regional}
+Ali~Asghar Zekavati, Mohammad~Ali Jafari, and Amir Mahmoudi.
+\newblock Regional seismic risk assessment method for electric power
+  substations: A case study.
+\newblock {\em Life Cycle Reliability and Safety Engineering}, pages 1--11,
+  2022.
+
+\bibitem{Sheng2023}
+Chao Sheng, Qian Tang, and HP~Hong.
+\newblock Estimating and mapping extreme ice accretion hazard and load due to
+  freezing rain at canadian sites.
+\newblock {\em International Journal of Disaster Risk Science}, 14(1):127--142,
+  2023.
+
+\bibitem{Watson2024}
+Peter~L Watson, William Hughes, Diego Cerrai, Wei Zhang, Amvrossios Bagtzoglou,
+  and Emmanouil Anagnostou.
+\newblock Integrating structural vulnerability analysis and data-driven machine
+  learning to evaluate storm impacts on the power grid.
+\newblock {\em IEEE Access}, 2024.
+
+\bibitem{NWS}
+National~Weather Service.
+\newblock The enhanced fujita scale (ef scale).
+\newblock WebPage, n.d.
+
+\bibitem{dosReis2022}
+Fernando~Bereta dos Reis, Patrick Royer, Vishvas~Hiren Chalishazar, Sarah
+  Davis, Marcelo Elizondo, Jeffery Dagle, Alexandre Nassif, Andrija Sadikovic,
+  Elli Ntakou, Olga Soto, et~al.
+\newblock Methodology to calibrate fragility curves using limited real-world
+  data.
+\newblock In {\em 2022 IEEE Power \& Energy Society General Meeting (PESGM)},
+  pages 01--05. IEEE, 2022.
+
+\bibitem{april}
+Sarah~J. Barnes and Frank~W. Agnew.
+\newblock {\em April's Fury: Alabama Power's Transmission Organization Battles
+  Historic Losses after April 27th Storms}, pages 14--25.
+\newblock ASCE, 2012.
+
+\bibitem{Xiao2024}
+MY~Xiao, WX~Zhou, G~Bitsuamlak, and HP~Hong.
+\newblock Fragility of transmission tower-line system subjected to concurrent
+  wind and ice accretion.
+\newblock {\em Journal of Constructional Steel Research}, 222:108925, 2024.
+
+\bibitem{Rezaei}
+Seyedeh~Nasim Rezaei, Luc Chouinard, S{\'e}bastien Langlois, and
+  Fr{\'e}d{\'e}ric L{\'e}geron.
+\newblock A probabilistic framework based on statistical learning theory for
+  structural reliability analysis of transmission line systems.
+\newblock {\em Structure and Infrastructure Engineering}, 13(12):1538--1552,
+  2017.
+
+\bibitem{lii}
+Hanyue Li, Ashly~L Bornsheuer, Ti~Xu, Adam~B Birchfield, and Thomas~J Overbye.
+\newblock Load modeling in synthetic electric grids.
+\newblock In {\em 2018 IEEE Texas Power and Energy Conference (TPEC)}, pages
+  1--6. IEEE, 2018.
+
+\bibitem{texasam}
+Texas A\&M University~College of~Engineering.
+\newblock Electric grid test cases.
+\newblock WebPage, June 2024.
+
+\bibitem{purchala2005}
+Konrad Purchala, Leonardo Meeus, Daniel Van~Dommelen, and Ronnie Belmans.
+\newblock Usefulness of dc power flow for active power flow analysis.
+\newblock In {\em IEEE power engineering society general meeting, 2005}, pages
+  454--459. IEEE, 2005.
+
+\bibitem{zimmerman}
+Ray~Daniel Zimmerman, Carlos~Edmundo Murillo-S{\'a}nchez, and Robert~John
+  Thomas.
+\newblock Matpower: Steady-state operations, planning, and analysis tools for
+  power systems research and education.
+\newblock {\em IEEE Transactions on power systems}, 26(1):12--19, 2010.
+
+\bibitem{morelato}
+AL~Morelato and AJ~Monticelli.
+\newblock Heuristic search approach to distribution system restoration.
+\newblock {\em IEEE transactions on power delivery}, 4(4):2235--2241, 1989.
+
+\bibitem{NARVAL}
+Digital Research~Alliance of~Canada.
+\newblock Narval.
+\newblock WebPage, November 2024.
+
+\end{thebibliography}

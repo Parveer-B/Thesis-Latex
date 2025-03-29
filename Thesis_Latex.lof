@@ -1,0 +1,17 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Resilience Triangle}}{2}{figure.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Tornado heatmap from the NOAA website}}{6}{figure.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Generated and simulated tornado heatmaps over the continental U.S}}{7}{figure.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Fitted tornado width Q-Q plots}}{8}{figure.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Transmission line fragility curves}}{10}{figure.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Images of Texas A\&M's Hawaii and Texas mock power grids}}{11}{figure.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Potential failure scenario for bus removal programs}}{15}{figure.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Cost (blackout value) formula visualized}}{16}{figure.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Load based mock cost formula visualized}}{19}{figure.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Restore based mock cost formula visualized}}{20}{figure.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Initial Testing - 5 buses removed, Texas Case}}{25}{figure.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Initial Testing - 5 buses removed, Texas Case}}{26}{figure.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Second Testing Set - 10 buses removed, Hawaii Case}}{28}{figure.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Second Testing Set - 10 buses removed, Texas Case}}{29}{figure.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Time required to find importance metric with Keepn}}{32}{figure.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Time required to find importance metric with N1Greedy}}{33}{figure.16}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Time required to find importance metric with various methods}}{34}{figure.17}%
