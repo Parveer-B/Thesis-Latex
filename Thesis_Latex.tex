@@ -12,6 +12,8 @@
 \usepackage{makecell}
 \usepackage{hyperref}
 \usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{float}
 \hypersetup{
     colorlinks=true,
     linkcolor=black,
@@ -74,14 +76,16 @@
 \pagenumbering{roman}
 \vspace*{\fill}
 \begin{abstract}
-This is the abstract of the paper. It summarizes the main objectives, methods, results, and conclusions of your work. The abstract should be concise and typically between 150-250 words.
+\begin{spacing}{1.0}
+Extreme weather continues to impact power system operations, as demonstrated by a recent Ontario ice storm, which left almost 400,000 people without power. This problem is expected to worsen due to climate change. In response, this paper proposes two methods for improving power system resilience. In the short term, pruning methods were developed to determine the optimal repair sequence for damaged grid assets, minimizing the event's impact. For smaller sets of damaged assets, these methods provided near-optimal solutions. Different pruning methods provide varying levels computational costs and efficacy to be used in different use cases. In the long term, an asset importance metric is presented to efficiently allocate grid improvement resources. Using a semi-realistic tornado generator and fragility analysis, we applied this metric to assets in a mock grid representing Texas’s power grid, as a proof of concept. The results show that importance values for transmission lines can be calculated within one week of simulation.
+\end{spacing}
 \end{abstract}
 \vspace*{\fill}
 \newpage
 \renewcommand{\abstractname}{Acknowledgements}  % Change heading name
 \vspace*{\fill}
 \begin{abstract}
-I would like to express my gratitude to my advisor, Dr. XYZ, for their guidance and support. Special thanks to my colleagues and family for their encouragement throughout this journey.
+I would like to express my gratitude to my supervisor, Professor Zeb Tate, for their support as I completed this thesis project. I would also like to thank Professor Taeyong Kim for providing me with his expertise on fragility analysis, as well as Professor Morgan O'Neill for her advice on weather event generation.
 \end{abstract}
 \vspace*{\fill}
 
@@ -535,9 +539,99 @@ Another possibility is to vary the method depending on how many assets are damag
     \label{fig:Keepvariednumsims}
 \end{figure}
 
-In this paper, due to the short timelines of the EngSci thesis project, N1Greedy was used as the pruning method for all storms. To run the simulation, storms were generated in batches of 200, and 200 NARVAL jobs were submitted to run power system simulations and calculate the bus importance metric for each batch. Each batch was given a week (the NARVAL job time limit) to complete as many storms as possible. Data was saved after every 1000 storms within a batch to prevent data loss. It should be noted that this implicitly does affect the importances of assets in high density areas, as those batches which may end up with a lot of storms in those areas will likely take longer to run, and thus less importance metrics for storms in those areas will be calculated.
+In this paper, due to the short timelines of this thesis project, N1Greedy was used as the pruning method for all storms. However in future planning studies Keepn or the configuration shown in Figure \ref{fig:Keepvariednumsims} could be used. To run the simulation, storms were generated in batches of 200, and 200 NARVAL jobs were submitted to run power system simulations and calculate the bus importance metric for each batch. Each batch was given a week (the NARVAL job time limit) to complete as many storms as possible. Data was saved after every 1000 storms within a batch to prevent data loss. It should be noted that this implicitly does affect the importances of assets in high density areas, as those batches which may end up with a lot of storms in those areas will likely take longer to run, and thus less importance metrics for storms in those areas will be calculated.
 
 \subsection{Simulation Results}
+After running the simulation, \textcolor{red}{1103000} power grid storms were able to be completed. The number of storms run in each batch is given in Figure \ref{fig:numsimsperbatch}. 
+
+\begin{figure}[ht]
+    \centering %center the image
+    \includegraphics[scale = 0.6]{numsimsperbatch.pdf}
+    \caption[Number of tornadoes run in each batch]{The number of tornadoes run in each batch. There were 200 batches in total.}
+    \label{fig:numsimsperbatch}
+\end{figure}
+
+Analyzing the tornadoes which are in the batches that were unable to complete 1000 tornadoes within the week period, we see that one of them, batch 77, had a storm within the first 1000 which damaged 77 grid elements. Another, batch 114 had a storm which damaged 71 elements. These events likely caused these batches to be unable to finish their first 1000 storms. \par
+
+Of the storms run, the number with a non-zero number of assets damaged was 174589, or about 16\%. The distribution of the number of assets damaged is presented in FIgure \ref{fig:Assetsremovedincases}. 
+
+\begin{figure}[H]
+    \centering %center the image
+    \includegraphics[scale = 0.6]{Assetsremovedincases.pdf}
+    \caption[Distribution of assets removed in each case]{The distribution of the number of assets removed in each case. A log scale is used on the y-axis for readability.}
+    \label{fig:Assetsremovedincases}
+\end{figure}
+As expected, it is much less common for higher numbers of assets to be removed. For example, exactly 5 assets were removed 6839 times, 10 assets 1256 times, and 20 assets only 215 times. However it should be noted that many storms may exist which had a higher level of asset removal than the right end of this chart. However as shown in Figure \ref{fig:Keep1numsims}, the power grid simulation may not have been able to complete in time for those cases, such as the 77 asset damaging case in batch 77. Figure \ref{fig:Assetsremovedincases} split into buses and lines is shown in Figure \ref{fig:Assettypesremovedincases}.
+
+\begin{figure}[H]
+    \centering %center the image
+    \includegraphics[width=\textwidth]{Assettypesremovedincases.png}
+    \caption[Distribution of buses and lines removed in each case]{The distribution of the number of buses and lines removed in each case. A log scale is used on the y-axis for readability.}
+    \label{fig:Assettypesremovedincases}
+\end{figure}
+
+As expected, the number of lines removed can go a lot higher than the number of buses. A tornado is much more likely to hit a transmission line which spans from substation to substations than a bus which is at a specific location and must be directly within the tornado box. As a comparison, 6 lines were removed \textcolor{red}{6772} times. Conversely 6 buses were only removed \textcolor{red}{122} times demonstrating the scale of this difference. Additionally, while \textcolor{red}{174589} tornadoes damaged some asset, only \textcolor{red}{5256} of those included at least one grid bus. \par
+
+In terms of actual asset importances, the most important buses are listed in table \ref{tab:top5buses} and the most important lines are listed in Table \ref{tab:top5lines}.
+
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{ccccc}
+        \toprule
+        Bus Number & Importance & Times Hit & Longitude & Latitude \\
+        \midrule
+        43535 & 3583 & 3 & 23.5 & 27.6 \\
+        45345 & 3583 & 3 & 23.5 & 27.6 \\
+        13145 & 3583 & 3 & 23.5 & 27.6 \\
+        75435 & 3583 & 3 & 23.5 & 27.6 \\
+        24635 & 3583 & 3 & 23.5 & 27.6 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Top 5 Buses by Importance. Latitude is in ...}
+    \label{tab:top5buses}
+\end{table}
+
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{cccccc}
+        \toprule
+        Bus From & Bus To & Importance & Times Hit & Av. Longitude & Av. Latitude \\
+        \midrule
+        101 & 205 & 0.85 & 12 & -79.3832 & 43.6532 \\
+        304 & 112 & 0.78 & 9  & -118.2437 & 34.0522 \\
+        219 & 540 & 0.72 & 7  & -74.0060 & 40.7128 \\
+        450 & 390 & 0.68 & 6  & -0.1276 & 51.5074 \\
+        120 & 330 & 0.61 & 5  & 2.3522 & 48.8566 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Top 5 Lines by Importance}
+    \label{tab:top5lines}
+\end{table}
+
+\textcolor{red}{Analyze this data}. Thus, these lines should be prioritized for hardening. Taking the strategies from \cite{hughes2024assessing}, undergrounding, while expensive, would be especially useful on the lines listed in \ref{tab:top5lines}. If that isn't feasible, vegetation management and pole upgrades should be prioritized in areas surrounding those lines. Additionally, for the buses listed in Table \ref{tab:top5buses}, the area should be kept relatively clear to avoid as much debris blowing into the bus as possible. The bus infrastructure should also be hardened in order to withstand future events. 
+
+
+Finally, analyzing the number of times each bus and line was hit in Figure \ref{fig:Timeseachitemhit}, we see that while most lines were hit over 20 times, with a large proportion being hit over 100 times. Thus, for transmission lines, the Monte Carlo tornado generation likely somewhat accurately reflects their likelihood of being hit. Conversely for the grid buses, the vast majority of the buses were hit less than two times. Thus there is much more randomness in their importance value and the values in Table \ref{tab:top5buses} should be held in less regard until more simulations are run.
+
+\begin{figure}[H]
+    \centering %center the image
+    \includegraphics[width=\textwidth]{Timeseachitemhit.png}
+    \caption[Distribution of the number of times each bus or line was removed]{The distribution of the number of times each bus or line was removed. The number of times zero lines were removed was omitted for clarity, with the value being \textcolor{red}{2075}}.
+    \label{fig:Timeseachitemhit}
+\end{figure}
+
+In conclusion, over a million tornadoes were simulated, and over a weeklong period a wide distribution in the number of grid assets hit per event were found. The bus and line importance values show that \textcolor{red}{add}. However it should be noted that while the line imortance values are more trustworthy, the lack of times each bus was hit demonstrates that the range of tornadoes which could hit grid buses was not fully sampled. 
+
+
+\newpage
+\section{Conclusion}
+This paper contained two main additions for improvements to grid resilience. For one, after a given weather event with removed grid assets, various pruning methods such as Keepn, N1Greedy and Per2Greedy were devised which are able to sequences in which to repair grid assets that would minimize the blackout value of the event. These methods were found to be very close to finding the optimal sequence with five buses removed, while being more effective than other methods found in literature for ten or less buses removed. Since they are not MIP based, they also have a much more certain completion time, making them more reliable immediately after an emergency. Of the pruning methods, Keepn delivers the best results, coming at the cost of computional time. N1Greedy on the other hand is much faster, but is less effictive in finding better solutions. Other methods such as Keepn/2 and Per2Greedy balance computational time and efficacy. These methods will aid in mitigating the effect of extreme events in the short term, and a specific method can be chosen depending on the specific situation at hand. \par
+In the long term, a Tornado generation model was created which could create tornadoes, and, with fragility analysis, determine which power system infrastructure was damaged. Using the asset importance metric described in this paper, as well as the N1Greedy pruning method, importance values were assigned to each value in the Texas mock grid system. Results were then found after a week of simulating on the NARVAL supercomputer, and the most important buses and transmission lines to improve were found. However, it was determined that a week of simulation was insufficient in finding accurate importance values for grid buses. This could be resolved by running simulations in which the importance values of transmission lines are not calculated, and solely focusing on the importance values for grid buses. This would involve ignoring storms which only damage transmission line, leaving more time for those which damage buses. \par
+Moving forward, users can utilize the N1Greedy, Keepn or a mixture of pruning methods to fully explore the space of possible tornado events over an extended simulation period. This would provide deeper insights for decision making with regards to asset hardening, line undergrounding and vegetation management around power grid infrastructure. Ultimately, this approach ensures that investments in power grid resilience are directed toward the most high-impact areas. \par
+There are various areas of future study for this work. For instance, RAD could be used to improve simulation speed for tornadoes which damage a large number of grid assets. Since RAD starts with an initial sequence, the computational time can be controlled by defining a stopping condition that ensures the asset importance calculation for a storm does not exceed a predetermined time limit. Additionally the fragility analysis could be updated to more accurately reflect the specific structures which compose the network for which this metric is being calculated for. Ice events could also be included in the analysis. \par
+Additionally, do to the inherent assumptions used when utilizing the DC power flow method (such as no line losses). This work could be improved upon by using the AC optimal power flow both when calculating the optimal repair sequence (both after a storm and when calculating asset importances). The computational time issue of the AC-OPF formulation could be addressed through various means such as using a smaller model with power flow injections representing flow outside the system to simplify the power system model, Additionally, specific topological quirks of the model, such as recognizing buses which should be repaired together, could decrease the number of possible repair sequences analyzed by the pruning methods. Lastly, the AC-OPF results from previous simulations could be cached to efficiently reuse solutions.
+
+
 
 
 

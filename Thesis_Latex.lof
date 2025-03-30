@@ -15,3 +15,7 @@
 \contentsline {figure}{\numberline {15}{\ignorespaces Time required to find importance metric with Keepn}}{32}{figure.15}%
 \contentsline {figure}{\numberline {16}{\ignorespaces Time required to find importance metric with N1Greedy}}{33}{figure.16}%
 \contentsline {figure}{\numberline {17}{\ignorespaces Time required to find importance metric with various methods}}{34}{figure.17}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Number of tornadoes run in each batch}}{35}{figure.18}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Distribution of assets removed in each case}}{35}{figure.19}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Distribution of buses and lines removed in each case}}{36}{figure.20}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Distribution of the number of times each bus or line was removed}}{37}{figure.21}%
