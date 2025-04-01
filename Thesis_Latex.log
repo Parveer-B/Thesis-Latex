@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.30)  30 MAR 2025 16:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.30)  1 APR 2025 14:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -373,33 +373,38 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count302
 \@lastruleclass=\count303
 \@thisrulewidth=\dimen184
+) (C:\Users\parve\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
+Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
+\AP@output=\toks32
+\AP@partial=\box58
+\AP@footins=\box59
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 25.
+Package hyperref Info: Option `colorlinks' set `true' on input line 32.
  (C:\Users\parve\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count304
-\l__pdf_internal_box=\box58
+\l__pdf_internal_box=\box60
 ) (Thesis_Latex.aux)
 \openout1 = `Thesis_Latex.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -439,22 +444,22 @@ LaTeX Font Info:    ... okay on input line 56.
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count305
 \scratchdimen=\dimen185
-\scratchbox=\box59
+\scratchbox=\box61
 \nofMPsegments=\count306
 \nofMParguments=\count307
-\everyMPshowfont=\toks32
+\everyMPshowfont=\toks33
 \MPscratchCnt=\count308
 \MPscratchDim=\dimen186
 \MPnumerator=\count309
 \makeMPintoPDFobject=\count310
-\everyMPtoPDFconversion=\toks33
+\everyMPtoPDFconversion=\toks34
 ) (C:\Users\parve\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\parve\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 56.
+Package hyperref Info: Link coloring ON on input line 64.
  (Thesis_Latex.out) (Thesis_Latex.out)
 \@outlinefile=\write3
 \openout3 = `Thesis_Latex.out'.
@@ -469,148 +474,158 @@ Package hyperref Info: Link coloring ON on input line 56.
 \tf@lof=\write5
 \openout5 = `Thesis_Latex.lof'.
 
- [4]
+ [4] (Thesis_Latex.lot)
+\tf@lot=\write6
+\openout6 = `Thesis_Latex.lot'.
+
+ [5]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.108 ...l impact of the event \cite{Jufri}.  \par
+l.122 ...t value, of the event \cite{Jufri}.  \par
                                                    [1]
-<./images/Resilience Triangle.pdf, id=223, 660.49133pt x 335.15439pt>
+<./images/Resilience Triangle.pdf, id=238, 660.49133pt x 335.15439pt>
 File: ./images/Resilience Triangle.pdf Graphic file (type pdf)
 <use ./images/Resilience Triangle.pdf>
-Package pdftex.def Info: ./images/Resilience Triangle.pdf  used on input line 112.
+Package pdftex.def Info: ./images/Resilience Triangle.pdf  used on input line 126.
 (pdftex.def)             Requested size: 469.75502pt x 238.3755pt.
  [2 <./images/Resilience Triangle.pdf>] [3] [4]
-<./images/noaaheatmap.png, id=284, 919.9971pt x 680.7834pt>
+<./images/noaaheatmap.png, id=298, 919.9971pt x 680.7834pt>
 File: ./images/noaaheatmap.png Graphic file (type png)
 <use ./images/noaaheatmap.png>
-Package pdftex.def Info: ./images/noaaheatmap.png  used on input line 139.
+Package pdftex.def Info: ./images/noaaheatmap.png  used on input line 154.
 (pdftex.def)             Requested size: 469.75502pt x 347.62085pt.
  [5]
-<./images/heatmapresults.png, id=296, 721.9773pt x 474.0912pt>
+<./images/heatmapresults.png, id=310, 721.9773pt x 474.0912pt>
 File: ./images/heatmapresults.png Graphic file (type png)
 <use ./images/heatmapresults.png>
-Package pdftex.def Info: ./images/heatmapresults.png  used on input line 149.
+Package pdftex.def Info: ./images/heatmapresults.png  used on input line 164.
 (pdftex.def)             Requested size: 469.75502pt x 308.46669pt.
  [6 <./images/noaaheatmap.png>] [7 <./images/heatmapresults.png>]
-<./images/WeibullDistribs.pdf, id=312, 515.67656pt x 376.40625pt>
+<./images/WeibullDistribs.pdf, id=327, 515.67656pt x 376.40625pt>
 File: ./images/WeibullDistribs.pdf Graphic file (type pdf)
 <use ./images/WeibullDistribs.pdf>
-Package pdftex.def Info: ./images/WeibullDistribs.pdf  used on input line 158.
+Package pdftex.def Info: ./images/WeibullDistribs.pdf  used on input line 173.
 (pdftex.def)             Requested size: 469.75502pt x 342.8978pt.
  [8 <./images/WeibullDistribs.pdf>]
-<./images/TLfragility.pdf, id=349, 617.30624pt x 405.01312pt>
+<./images/TLfragility.pdf, id=363, 617.30624pt x 405.01312pt>
 File: ./images/TLfragility.pdf Graphic file (type pdf)
 <use ./images/TLfragility.pdf>
-Package pdftex.def Info: ./images/TLfragility.pdf  used on input line 172.
+Package pdftex.def Info: ./images/TLfragility.pdf  used on input line 187.
 (pdftex.def)             Requested size: 469.75502pt x 308.21486pt.
  [9] [10 <./images/TLfragility.pdf>]
-<./images/Mock Grids 2.png, id=379, 676.77844pt x 264.99pt>
+<./images/Mock Grids 2.png, id=395, 676.77844pt x 264.99pt>
 File: ./images/Mock Grids 2.png Graphic file (type png)
 <use ./images/Mock Grids 2.png>
-Package pdftex.def Info: ./images/Mock Grids 2.png  used on input line 184.
+Package pdftex.def Info: ./images/Mock Grids 2.png  used on input line 199.
 (pdftex.def)             Requested size: 469.75502pt x 183.93501pt.
- [11 <./images/Mock Grids 2.png>] [12] [13] [14]
-<./images/Pminbroken2.pdf, id=436, 602.25pt x 542.025pt>
+ [11] [12 <./images/Mock Grids 2.png>] [13] [14]
+<./images/Pminbroken2.pdf, id=451, 602.25pt x 542.025pt>
 File: ./images/Pminbroken2.pdf Graphic file (type pdf)
 <use ./images/Pminbroken2.pdf>
-Package pdftex.def Info: ./images/Pminbroken2.pdf  used on input line 242.
-(pdftex.def)             Requested size: 469.75502pt x 422.79433pt.
- [15 <./images/Pminbroken2.pdf>]
-<./images/costfigure.pdf, id=447, 414.04688pt x 278.54062pt>
+Package pdftex.def Info: ./images/Pminbroken2.pdf  used on input line 257.
+(pdftex.def)             Requested size: 361.35278pt x 325.2175pt.
+ [15]
+<./images/costfigure.pdf, id=459, 414.04688pt x 278.54062pt>
 File: ./images/costfigure.pdf Graphic file (type pdf)
 <use ./images/costfigure.pdf>
-Package pdftex.def Info: ./images/costfigure.pdf  used on input line 255.
+Package pdftex.def Info: ./images/costfigure.pdf  used on input line 270.
 (pdftex.def)             Requested size: 372.63873pt x 250.68423pt.
- [16 <./images/costfigure.pdf>]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 264.
-<./images/LMCFigure.pdf, id=462, 278.54062pt x 278.54062pt>
+ [16 <./images/Pminbroken2.pdf>]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 279.
+ [17 <./images/costfigure.pdf>] [18]
+<./images/LMCFigure.pdf, id=490, 278.54062pt x 278.54062pt>
 File: ./images/LMCFigure.pdf Graphic file (type pdf)
 <use ./images/LMCFigure.pdf>
-Package pdftex.def Info: ./images/LMCFigure.pdf  used on input line 326.
+Package pdftex.def Info: ./images/LMCFigure.pdf  used on input line 341.
 (pdftex.def)             Requested size: 222.8328pt x 222.8328pt.
- [17] [18]
-<./images/RMCFigure.pdf, id=480, 293.59688pt x 286.06876pt>
+ [19 <./images/LMCFigure.pdf>]
+<./images/RMCFigure.pdf, id=507, 293.59688pt x 286.06876pt>
 File: ./images/RMCFigure.pdf Graphic file (type pdf)
 <use ./images/RMCFigure.pdf>
-Package pdftex.def Info: ./images/RMCFigure.pdf  used on input line 337.
+Package pdftex.def Info: ./images/RMCFigure.pdf  used on input line 352.
 (pdftex.def)             Requested size: 234.8778pt x 228.85532pt.
- [19 <./images/LMCFigure.pdf>] [20 <./images/RMCFigure.pdf>] [21] [22] [23]
-<./images/Texas5busr1.pdf, id=536, 1248.665pt x 1599.9775pt>
+ [20 <./images/RMCFigure.pdf>] [21] [22] [23] [24]
+<./images/Texas5busr1.pdf, id=554, 1248.665pt x 1599.9775pt>
 File: ./images/Texas5busr1.pdf Graphic file (type pdf)
 <use ./images/Texas5busr1.pdf>
-Package pdftex.def Info: ./images/Texas5busr1.pdf  used on input line 433.
+Package pdftex.def Info: ./images/Texas5busr1.pdf  used on input line 448.
 (pdftex.def)             Requested size: 299.68571pt x 384.00244pt.
- [24] [25 <./images/Texas5busr1.pdf>]
-<./images/Hawaii5busr1.pdf, id=699, 1249.66875pt x 1599.9775pt>
+<./images/Hawaii5busr1.pdf, id=556, 1249.66875pt x 1599.9775pt>
 File: ./images/Hawaii5busr1.pdf Graphic file (type pdf)
 <use ./images/Hawaii5busr1.pdf>
-Package pdftex.def Info: ./images/Hawaii5busr1.pdf  used on input line 448.
+Package pdftex.def Info: ./images/Hawaii5busr1.pdf  used on input line 463.
 (pdftex.def)             Requested size: 299.92662pt x 384.00244pt.
- [26 <./images/Hawaii5busr1.pdf>]
-<./images/Hawaii10busr2.pdf, id=999, 1249.66875pt x 1599.9775pt>
+ [25] [26 <./images/Texas5busr1.pdf>] [27 <./images/Hawaii5busr1.pdf>]
+<./images/Hawaii10busr2.pdf, id=1017, 1249.66875pt x 1599.9775pt>
 File: ./images/Hawaii10busr2.pdf Graphic file (type pdf)
 <use ./images/Hawaii10busr2.pdf>
-Package pdftex.def Info: ./images/Hawaii10busr2.pdf  used on input line 485.
+Package pdftex.def Info: ./images/Hawaii10busr2.pdf  used on input line 500.
 (pdftex.def)             Requested size: 299.92662pt x 384.00244pt.
- [27] [28 <./images/Hawaii10busr2.pdf>]
-<./images/Texas10busr2.pdf, id=1160, 1249.66875pt x 1599.9775pt>
+<./images/Texas10busr2.pdf, id=1019, 1249.66875pt x 1599.9775pt>
 File: ./images/Texas10busr2.pdf Graphic file (type pdf)
 <use ./images/Texas10busr2.pdf>
-Package pdftex.def Info: ./images/Texas10busr2.pdf  used on input line 496.
+Package pdftex.def Info: ./images/Texas10busr2.pdf  used on input line 511.
 (pdftex.def)             Requested size: 299.92662pt x 384.00244pt.
- [29 <./images/Texas10busr2.pdf>] [30]
-<./images/Keepnnumsims.pdf, id=1198, 462.52798pt x 346.89601pt>
+ [28] [29 <./images/Hawaii10busr2.pdf>] [30 <./images/Texas10busr2.pdf>]
+<./images/Keepnnumsims.pdf, id=1211, 462.52798pt x 346.89601pt>
 File: ./images/Keepnnumsims.pdf Graphic file (type pdf)
 <use ./images/Keepnnumsims.pdf>
-Package pdftex.def Info: ./images/Keepnnumsims.pdf  used on input line 516.
+Package pdftex.def Info: ./images/Keepnnumsims.pdf  used on input line 531.
 (pdftex.def)             Requested size: 469.75502pt x 352.33656pt.
  [31]
-<./images/Keep1numsims.pdf, id=1206, 462.52798pt x 346.89601pt>
+<./images/Keep1numsims.pdf, id=1220, 462.52798pt x 346.89601pt>
 File: ./images/Keep1numsims.pdf Graphic file (type pdf)
 <use ./images/Keep1numsims.pdf>
-Package pdftex.def Info: ./images/Keep1numsims.pdf  used on input line 526.
+Package pdftex.def Info: ./images/Keep1numsims.pdf  used on input line 541.
 (pdftex.def)             Requested size: 469.75502pt x 352.33656pt.
  [32 <./images/Keepnnumsims.pdf>]
-<./images/Keepvariednumsims.pdf, id=1239, 462.52798pt x 346.89601pt>
+<./images/Keepvariednumsims.pdf, id=1252, 462.52798pt x 346.89601pt>
 File: ./images/Keepvariednumsims.pdf Graphic file (type pdf)
 <use ./images/Keepvariednumsims.pdf>
-Package pdftex.def Info: ./images/Keepvariednumsims.pdf  used on input line 537.
+Package pdftex.def Info: ./images/Keepvariednumsims.pdf  used on input line 552.
 (pdftex.def)             Requested size: 469.75502pt x 352.33656pt.
-<./images/numsimsperbatch.pdf, id=1242, 429.605pt x 339.2675pt>
+<./images/numsimsperbatch.pdf, id=1255, 429.605pt x 339.2675pt>
 File: ./images/numsimsperbatch.pdf Graphic file (type pdf)
 <use ./images/numsimsperbatch.pdf>
-Package pdftex.def Info: ./images/numsimsperbatch.pdf  used on input line 549.
+Package pdftex.def Info: ./images/numsimsperbatch.pdf  used on input line 564.
 (pdftex.def)             Requested size: 257.76498pt x 203.56206pt.
  [33 <./images/Keep1numsims.pdf>]
-<./images/Assetsremovedincases.pdf, id=1274, 421.575pt x 339.2675pt>
+<./images/Assetsremovedincases.pdf, id=1287, 421.575pt x 339.2675pt>
 File: ./images/Assetsremovedincases.pdf Graphic file (type pdf)
 <use ./images/Assetsremovedincases.pdf>
-Package pdftex.def Info: ./images/Assetsremovedincases.pdf  used on input line 560.
+Package pdftex.def Info: ./images/Assetsremovedincases.pdf  used on input line 575.
 (pdftex.def)             Requested size: 252.94695pt x 203.56206pt.
  [34 <./images/Keepvariednumsims.pdf>]
-<./images/Assettypesremovedincases.png, id=1308, 1445.4pt x 676.77844pt>
+<./images/Assettypesremovedincases.png, id=1320, 1445.4pt x 676.77844pt>
 File: ./images/Assettypesremovedincases.png Graphic file (type png)
 <use ./images/Assettypesremovedincases.png>
-Package pdftex.def Info: ./images/Assettypesremovedincases.png  used on input line 568.
+Package pdftex.def Info: ./images/Assettypesremovedincases.png  used on input line 583.
 (pdftex.def)             Requested size: 469.75502pt x 219.95038pt.
  [35 <./images/numsimsperbatch.pdf> <./images/Assetsremovedincases.pdf
 
 pdfTeX warning: pdflatex (file ./images/Assetsremovedincases.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >] [36 <./images/Assettypesremovedincases.png (PNG copy)>]
-<./images/Timeseachitemhit.png, id=1335, 1445.4pt x 676.77844pt>
+<./images/Timeseachitemhit.png, id=1345, 1445.4pt x 676.77844pt>
 File: ./images/Timeseachitemhit.png Graphic file (type png)
 <use ./images/Timeseachitemhit.png>
-Package pdftex.def Info: ./images/Timeseachitemhit.png  used on input line 618.
+Package pdftex.def Info: ./images/Timeseachitemhit.png  used on input line 633.
 (pdftex.def)             Requested size: 469.75502pt x 219.95038pt.
  [37 <./images/Timeseachitemhit.png (PNG copy)>] [38] [39] [40] (Thesis_Latex.bbl [41] [42] [43]) [44]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 663.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 678.
  (C:\Users\parve\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 663.
- [45] [46] (Thesis_Latex.aux)
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 678.
+ [45] [46]
+pdfTeX warning (ext4): destination with the same identifier (name{page.46}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.735 \end{document}
+                     [46
+
+] (Thesis_Latex.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -619,17 +634,17 @@ Package rerunfilecheck Info: File `Thesis_Latex.out' has not changed.
 (rerunfilecheck)             Checksum: 91E51ABA97E9EA5BA1DB53868659C71B;4221.
  ) 
 Here is how much of TeX's memory you used:
- 12274 strings out of 474485
- 194056 string characters out of 5743734
- 1942542 words of memory out of 5000000
- 34230 multiletter control sequences out of 15000+600000
+ 12316 strings out of 474485
+ 194992 string characters out of 5743734
+ 1941542 words of memory out of 5000000
+ 34264 multiletter control sequences out of 15000+600000
  566404 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,15n,79p,1832b,562s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,15n,79p,1845b,562s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/parve/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/parve/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/parve/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/parve/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/parve/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/parve/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/parve/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/parve/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/parve/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/parve/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/parve/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/parve/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/parve/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/parve/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/parve/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/parve/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/parve/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/parve/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/parve/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Thesis_Latex.pdf (51 pages, 1923703 bytes).
+Output written on Thesis_Latex.pdf (53 pages, 1926448 bytes).
 PDF statistics:
- 1496 PDF objects out of 1728 (max. 8388607)
- 160 named destinations out of 1000 (max. 500000)
+ 1509 PDF objects out of 1728 (max. 8388607)
+ 162 named destinations out of 1000 (max. 500000)
  330 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -132,6 +132,8 @@ INPUT C:\Users\parve\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.
 INPUT C:\Users\parve\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\parve\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
 INPUT C:\Users\parve\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Users\parve\AppData\Local\Programs\MiKTeX\tex\latex\tools\afterpage.sty
+INPUT C:\Users\parve\AppData\Local\Programs\MiKTeX\tex\latex\tools\afterpage.sty
 INPUT C:\Users\parve\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\parve\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT .\Thesis_Latex.aux
@@ -182,6 +184,10 @@ INPUT .\Thesis_Latex.lof
 INPUT .\Thesis_Latex.lof
 INPUT Thesis_Latex.lof
 OUTPUT Thesis_Latex.lof
+INPUT .\Thesis_Latex.lot
+INPUT .\Thesis_Latex.lot
+INPUT Thesis_Latex.lot
+OUTPUT Thesis_Latex.lot
 INPUT C:\Users\parve\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\images\Resilience Triangle.pdf
 INPUT .\images\Resilience Triangle.pdf

@@ -9,18 +9,18 @@
 \contentsline {section}{\numberline {3}Outage Repair Sequencing Method}{12}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Optimal Power Flow}{12}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Grid Asset Removal Logic}{14}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Asset Sequencing Methods}{16}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}NxGreedy}{19}{subsubsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3}Asset Sequencing Methods}{15}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}NxGreedy}{20}{subsubsection.3.3.1}%
 \contentsline {subsubsection}{\numberline {3.3.2}Keepx}{21}{subsubsection.3.3.2}%
 \contentsline {subsubsection}{\numberline {3.3.3}Closecostx\%}{21}{subsubsection.3.3.3}%
 \contentsline {subsubsection}{\numberline {3.3.4}PerxGreedy}{21}{subsubsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.4}Method Evaluation}{21}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Storm Travel Line}{21}{subsubsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4}Method Evaluation}{22}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Storm Travel Line}{22}{subsubsection.3.4.1}%
 \contentsline {subsubsection}{\numberline {3.4.2}Mock Cost Evaluation}{22}{subsubsection.3.4.2}%
 \contentsline {subsubsection}{\numberline {3.4.3}RAD}{23}{subsubsection.3.4.3}%
-\contentsline {subsubsection}{\numberline {3.4.4}5-Bus Pruning Method Evaluation}{24}{subsubsection.3.4.4}%
+\contentsline {subsubsection}{\numberline {3.4.4}5-Bus Pruning Method Evaluation}{25}{subsubsection.3.4.4}%
 \contentsline {subsubsection}{\numberline {3.4.5}10-Bus Pruning Method Evaluation}{27}{subsubsection.3.4.5}%
-\contentsline {subsubsection}{\numberline {3.4.6}Summary of Results}{30}{subsubsection.3.4.6}%
+\contentsline {subsubsection}{\numberline {3.4.6}Summary of Results}{29}{subsubsection.3.4.6}%
 \contentsline {section}{\numberline {4}Bus Importance Simulation}{31}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Simulation Setup}{31}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Simulation Results}{34}{subsection.4.2}%
