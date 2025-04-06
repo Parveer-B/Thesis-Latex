@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex Thesis_Latex"] 1743530962.65309 "Thesis_Latex.aux" "Thesis_Latex.bbl" "Thesis_Latex" 1743530968.26822 0
+["bibtex Thesis_Latex"] 1743912605.15868 "Thesis_Latex.aux" "Thesis_Latex.bbl" "Thesis_Latex" 1743912608.66071 0
   "./references.bib" 1743516049 13785 ce34ffebb89767a106535c13043892af ""
   "C:/Users/parve/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/unsrt.bst" 1291864736 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "Thesis_Latex.aux" 1743530966 14241 c9266336afc81d20db06d0ac18f01662 "pdflatex"
+  "Thesis_Latex.aux" 1743912607 14243 a813f1af04b03e44586eb0d79527ded7 "pdflatex"
   (generated)
   "Thesis_Latex.bbl"
   "Thesis_Latex.blg"
   (rewritten before read)
-["pdflatex"] 1743530963.51895 "c:/Users/parve/OneDrive - University of Toronto/Desktop/thesis/Thesis/Thesis Latex/Thesis_Latex.tex" "Thesis_Latex.pdf" "Thesis_Latex" 1743530968.27034 0
+["pdflatex"] 1743912605.81401 "c:/Users/parve/OneDrive - University of Toronto/Desktop/thesis/Thesis/Thesis Latex/Thesis_Latex.tex" "Thesis_Latex.pdf" "Thesis_Latex" 1743912608.66149 0
   "C:/Users/parve/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1743349302 279613 fe62a258ff6d99cc2243c3a2d16aa767 ""
   "C:/Users/parve/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1725037510 24225087 dbdb178e00d16151a20818220edfd596 ""
   "C:/Users/parve/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -118,16 +118,16 @@
   "C:/Users/parve/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1700599895 12667 e4b5eb11e4b7239e6c8a52bbe074a6c6 ""
   "C:/Users/parve/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/parve/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "Thesis_Latex.aux" 1743530966 14241 c9266336afc81d20db06d0ac18f01662 "pdflatex"
-  "Thesis_Latex.bbl" 1743530963 9816 967d86be9ef0cb2067441abdb009929a "bibtex Thesis_Latex"
-  "Thesis_Latex.lof" 1743530966 2472 b17f668865157e5a8a0c5235a67fe701 "pdflatex"
-  "Thesis_Latex.lot" 1743530966 544 cd119b7e84747fb6641027d5df338c94 "pdflatex"
-  "Thesis_Latex.out" 1743530966 4221 91e51aba97e9ea5ba1db53868659c71b "pdflatex"
-  "Thesis_Latex.tex" 1743530956 90239 f81fd81d678d61d8da002d14fa24c444 ""
-  "Thesis_Latex.toc" 1743530966 2406 94725d8653ff7f496f8df9026f6f3458 "pdflatex"
-  "c:/Users/parve/OneDrive - University of Toronto/Desktop/thesis/Thesis/Thesis Latex/Thesis_Latex.tex" 1743530956 90239 f81fd81d678d61d8da002d14fa24c444 ""
-  "images/Assetsremovedincases.pdf" 1743355780 29617 7a4fd490641bce562d4ad88e1e918339 ""
-  "images/Assettypesremovedincases.png" 1743300748 47923 784389de7dfbff97ec54ec2259a9901c ""
+  "Thesis_Latex.aux" 1743912607 14243 a813f1af04b03e44586eb0d79527ded7 "pdflatex"
+  "Thesis_Latex.bbl" 1743912605 9816 967d86be9ef0cb2067441abdb009929a "bibtex Thesis_Latex"
+  "Thesis_Latex.lof" 1743912607 2473 9f87098558fb72c4af10045bc90b6cca "pdflatex"
+  "Thesis_Latex.lot" 1743912607 544 cd119b7e84747fb6641027d5df338c94 "pdflatex"
+  "Thesis_Latex.out" 1743912607 4221 91e51aba97e9ea5ba1db53868659c71b "pdflatex"
+  "Thesis_Latex.tex" 1743912600 91918 8601eb11670758a51dd0840b17ed50e1 ""
+  "Thesis_Latex.toc" 1743912607 2406 94725d8653ff7f496f8df9026f6f3458 "pdflatex"
+  "c:/Users/parve/OneDrive - University of Toronto/Desktop/thesis/Thesis/Thesis Latex/Thesis_Latex.tex" 1743912600 91918 8601eb11670758a51dd0840b17ed50e1 ""
+  "images/Assetsremovedincases.pdf" 1743908053 29793 35725f268a73713b1eab99b0e618067d ""
+  "images/Assettypesremovedincases.png" 1743907762 47812 692379b1f3bf307c2979f324e805bdb0 ""
   "images/Hawaii10busr2.pdf" 1743217110 62831 23be7688dff25ce895b5a354fdf97237 ""
   "images/Hawaii5busr1.pdf" 1743217487 84105 b981d32678b86d85961ce712e11d99c6 ""
   "images/Keep1numsims.pdf" 1743264711 11399 5623fc93692efb2e04471408db230137 ""
@@ -141,12 +141,12 @@
   "images/TLfragility.pdf" 1743209925 189186 7fd4dab31de6ca7e6e9322031655aa35 ""
   "images/Texas10busr2.pdf" 1743217028 40858 83bfd392d0ef3c3ea39d77a198bac319 ""
   "images/Texas5busr1.pdf" 1743217435 58226 f78503a1a3fdb13fa12ee55bc31f9b2c ""
-  "images/Timeseachitemhit.png" 1743358907 44364 a8fa12fd12b71a439c50a975d29bdce9 ""
+  "images/Timeseachitemhit.png" 1743908241 35157 d4630582c51ced72780a6354cd0e638b ""
   "images/WeibullDistribs.pdf" 1743043059 131090 268a3d7a382d594a02b56a5342de4521 ""
   "images/costfigure.pdf" 1742954317 14085 e702b92f0ed37d9415953b65f97247bc ""
   "images/heatmapresults.png" 1742680990 144198 b382e7921410e3e03d933311469f7f0b ""
   "images/noaaheatmap.png" 1742756035 474414 815e62161c04338fe757c4790980f5e3 ""
-  "images/numsimsperbatch.pdf" 1743355632 37744 390d5b44d6f25b6754a03c8ace98a9c2 ""
+  "images/numsimsperbatch.pdf" 1743905930 37131 1048225b0428a4b43b64c9b33484e5d0 ""
   (generated)
   "Thesis_Latex.aux"
   "Thesis_Latex.lof"
